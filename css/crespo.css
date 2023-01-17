@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+}
+p,h1,h2{
+    font-family: caviar dreams;
+    color: white;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 152px;
+}
+nav .menu{
+    display: flex;
+    width: 362px;
+    justify-content: space-around;
+    width: 648px;
+}
+nav .menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+nav .menu a:hover{
+    color: #D95858;
+}
+/* kesatu */
+.kesatu{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+    margin: 0 152px;
+}
+.kesatu .title{
+    width: fit-content;
+}
+.kesatu .title .title-2{
+    display: flex;
+    align-items: center;
+}
+.kesatu .title h1{
+    font-family: Caviar Dreams;
+    margin: 0;
+    font-size: 8vh;
+}
+.kesatu .title .rectangle{
+    background-color: #D95858;
+    height: 10px;
+    width: 10px;
+}
+.kesatu .button button{
+    background-color: #D95858;
+    color: white;
+    border: none;
+}
+
+/* aboutme */
+.aboutme{
+    margin: 0 152px;
+}
+.aboutme .title ,.skill .title, .portofolio .title, .services .title,.contact .title{
+    display: flex;
+    justify-content: center;
+}
+.aboutme .title h1, .skill .title h1, .portofolio .title h1,.services .title h1{
+    font-size: 8vh;
+    color: #D95858;
+}
+.aboutme .B-kiri-kanan{
+    display: flex;
+}
+.aboutme .B-kiri-kanan .img img{
+    box-shadow: 20px 20px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.aboutme .B-kiri-kanan .desc{
+    padding: 0 0 0 172px;
+}
+.aboutme .B-kiri-kanan .desc .h2{
+    display: flex;
+}
+.aboutme .B-kiri-kanan .desc .p p{
+    margin: 0;
+}
+.aboutme .B-kiri-kanan .desc .profile p{
+    margin: 10px 0;
+    margin-bottom: 10px;
+}
+.aboutme .B-kiri-kanan .desc .profile .np{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutme .B-kiri-kanan .desc .profile .np .name{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme .B-kiri-kanan .desc .profile .np .nomor{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme .B-kiri-kanan .desc .profile .ce{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutme .B-kiri-kanan .desc .profile .ce .country{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme .B-kiri-kanan .desc .profile .ce .education {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme .B-kiri-kanan .desc .profile .email{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* skill */
+.skill .B-kiri-kanan{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill .B-kiri-kanan p{
+    color: #D95858;
+}
+.skill .kiri .ps{
+    width: 242px;
+}
+.skill .kiri .ps .hp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill .kiri .ps .border{
+    display: flex;
+}
+.skill .kiri .ps .border .bgm{
+    background-color: #D95858;
+    height: 20px;
+    width: 80%;
+}
+.skill .kiri .ps .border .bgp{
+    background-color: white;
+    height: 20px;
+    width: 20%;
+}
+
+.skill .kanan .ps{
+    width: 242px;
+}
+.skill .kanan .ps .hp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill .kanan .ps .border{
+    display: flex;
+}
+.skill .kanan .ps .border .bgm{
+    background-color: #D95858;
+    height: 20px;
+    width: 80%;
+}
+.skill .kanan .ps .border .bgp{
+    background-color: white;
+    height: 20px;
+    width: 20%;
+}
+
+
+/* portofolio */
+.portofolio .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.portofolio .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+}
+.portofolio .menu a:hover{
+    color: #D95858;
+}
+.portofolio .img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.portofolio .img img{
+    height: 300px;
+    width: 300px;
+}
+
+
+/* services */
+.services .atas-bawah .atas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.services .atas-bawah .atas .gd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .atas-bawah .atas .gd img{
+    height: 100px;
+    width: 100px;
+}
+.services .atas-bawah .atas .gd p{
+    margin: 0;
+}
+
+
+.services .atas-bawah .bawah{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services .atas-bawah .bawah .gd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .atas-bawah .bawah .gd img{
+    height: 100px;
+    width: 100px;
+}
+.services .atas-bawah .bawah .gd p{
+    margin: 0;
+}
+
+/* contact */
+.contact{
+    margin: 50px 0;
+    margin-bottom: 0;
+    background-color: #D95858;
+    height: 300px;
+}
+.contact .title h1{
+    font-size: 8vh;
+    color: white;
+}
+.contact .sosmed{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact .sosmed .phone{
+    display: flex;
+}
+.contact .sosmed .phone img{
+    height: 50px;
+    width: 50px;
+}
+.contact .sosmed .phone .number{
+    margin: 0 15px;
+}
+.contact .button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+.contact .button button{
+    color: #D95858;
+    border: none;
+    background-color: white;
+    padding: 15px 10px;
+}
